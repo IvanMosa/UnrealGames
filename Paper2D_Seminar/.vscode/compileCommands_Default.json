@@ -1,0 +1,90 @@
+[
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/CoinActor.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/CoinActor.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Glavni_lik.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Glavni_lik.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_rad.Build.cs",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_rad.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_rad.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_radCharacter.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_radCharacter.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_radGameMode.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Source/Sem_rad/Sem_radGameMode.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mosa21/Documents/Unreal Projects/Sem_rad/.vscode/compileCommands_Default/Sem_rad.253.rsp"
+		],
+		"directory": "/Users/Shared/UE_5.2/Engine/Source"
+	}
+]

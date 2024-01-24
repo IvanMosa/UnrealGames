@@ -1,0 +1,105 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Sem_rad (Debug)",
+			"request": "launch",
+			"program": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"preLaunchTask": "Sem_rad Mac Debug Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_rad (DebugGame)",
+			"request": "launch",
+			"program": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"preLaunchTask": "Sem_rad Mac DebugGame Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_rad (Development)",
+			"request": "launch",
+			"program": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"preLaunchTask": "Sem_rad Mac Development Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_rad (Test)",
+			"request": "launch",
+			"program": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"preLaunchTask": "Sem_rad Mac Test Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_rad (Shipping)",
+			"request": "launch",
+			"program": "/Users/mosa21/Documents/Unreal Projects/Sem_rad/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"preLaunchTask": "Sem_rad Mac Shipping Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_radEditor (Debug)",
+			"request": "launch",
+			"program": "/Users/Shared/UE_5.2/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+			"preLaunchTask": "Sem_radEditor Mac Debug Build",
+			"args": [
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject"
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_radEditor (DebugGame)",
+			"request": "launch",
+			"program": "/Users/Shared/UE_5.2/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+			"preLaunchTask": "Sem_radEditor Mac DebugGame Build",
+			"args": [
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject"
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Sem_radEditor (Development)",
+			"request": "launch",
+			"program": "/Users/Shared/UE_5.2/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+			"preLaunchTask": "Sem_radEditor Mac Development Build",
+			"args": [
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject"
+			],
+			"cwd": "/Users/Shared/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/Users/Shared/UE_5.2/Engine/Build/BatchFiles/RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/Users/Shared/UE_5.2"
+		}
+	]
+}

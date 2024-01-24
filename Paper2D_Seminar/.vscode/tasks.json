@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Sem_rad Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Test",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Test",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Test",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Shipping",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Shipping",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"Mac",
+				"Shipping",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Test",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Test",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Test",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Shipping",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Shipping",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_rad IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_rad IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_rad",
+				"IOS",
+				"Shipping",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_radEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"Debug",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_radEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Sem_radEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		},
+		{
+			"label": "Sem_radEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Sem_radEditor",
+				"Mac",
+				"Development",
+				"/Users/mosa21/Documents/Unreal Projects/Sem_rad/Sem_rad.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/UE_5.2"
+			}
+		}
+	]
+}
